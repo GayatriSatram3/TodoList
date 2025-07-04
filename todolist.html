@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Todo App</title>
+  <link rel="stylesheet" href="todolist.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="main-container">
+    <div class="card">
+      <h1 class="heading">Todos Application</h1>
+      <h2 class="sub-heading">Create Task</h2>
+      <input type="text" class="input-text" id="userInputElement" placeholder="What needs to be done...?" />
+      <button class="btn" id="addTodoButton">Add to List</button>
+      <h2 class="sub-sub-heading">My Tasks</h2>
+      <ul class="todo-items-container" id="todoItemsContainer"></ul>
+      <button class="btn save-btn" id="saveTodoButton">Save Todos</button>
+    </div>
+  </div>
+  <script src="todolist.js"></script>
+</body>
+</html>
